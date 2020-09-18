@@ -24,7 +24,7 @@ export default class CustomerList extends LightningElement {
     }
 
     handleSelect(event) {
-        console.log(event.detail);
+        console.log(JSON.stringify(event.detail));
     }
     
 }
