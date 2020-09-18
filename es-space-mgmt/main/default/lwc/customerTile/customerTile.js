@@ -22,7 +22,8 @@ export default class CustomerTile extends LightningElement {
             detail: {
                 customerId: this.customer.Id,
                 sobjectType: this.object,
-                state: this.customer.state
+                state: this.customer.state,
+                name:this.customer.name
             }
         });
         this.dispatchEvent(clickevt);
